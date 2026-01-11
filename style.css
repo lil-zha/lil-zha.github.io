@@ -1,0 +1,89 @@
+/* Font & Background */
+body {
+  font-family: Garamond, serif;
+  background-color: #FFDAB9; /* light peach */
+  color: #5C4033; /* chocolate text */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Navigation Buttons */
+nav {
+  margin-bottom: 20px;
+}
+
+nav button {
+  background-color: #FFA07A; /* light salmon */
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #FF8C69;
+}
+
+/* Page Sections */
+.page {
+  display: none;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.page h1 {
+  text-align: center;
+}
+
+/* Recipe Boxes */
+.recipe-box {
+  background-color: #FFE4C4; /* bisque */
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.recipe-box h2 {
+  margin: 0;
+}
+
+.recipe-box button {
+  margin-top: 10px;
+  background-color: #FFB6C1;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe-box button:hover {
+  background-color: #FF69B4;
+}
+
+/* Hidden full recipes */
+.full-recipe {
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #5C4033;
+}
+
+/* Random Recipe Buttons */
+.random-btn {
+  margin: 10px;
+  background-color: #FFB6C1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.random-btn:hover {
+  background-color: #FF69B4;
+}
+
